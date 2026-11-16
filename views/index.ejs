@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<%- include('partials/header') %>
+<div class="p-5 mb-4 bg-light rounded-3">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Welcome to Marco's Portfolio</h1>
+    <p class="col-md-8 fs-4">I am a web development student building dynamic web applications using Node.js, Express, and EJS.</p>
+    <a href="/projects" class="btn btn-primary btn-lg">View My Projects</a>
+  </div>
+</div>
+<%- include('partials/footer') %>
